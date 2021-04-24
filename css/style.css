@@ -39,11 +39,15 @@ body{
   margin-top: 1%;
   border : 1px solid black;
   padding: 25px;
+}
+
+.form-3{
   height: 600px;
 }
 .footer{
   
     text-align: center;
+    position: relative;
     padding: 3px;
     background-color: DarkSalmon;
     color: white;
