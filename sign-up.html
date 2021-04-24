@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Add CSS Link-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!--Add Alerts Message With Badge Message-->
+
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Welcome To Ming's Diner!</strong> Come to experience the exceptional Indian dishes.
+            <span class="badge badge-warning">Don't forget to visit ! Thank You . </span>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <!--Add Navbar-->
+
+        <!--sticky-top -->
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+
+            <!-- Add Image and text of brand name -->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/res2.png" width="27" height="27" class="d-inline-block align-top" alt="icon">
+                Ming's Diner
+            </a>
+
+            <!--Add Toggler-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Add Other Navar Elements-->
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0  ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home Page<span class="sr-only">(current)</span></a>
+                    </li>
+                   
+                </ul>
+
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+                <ul class="navbar-nav">
+                   
+                    <li class="nav-item">
+                        <a href="sign-up.html" class="nav-link">Sign Up </a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+   <div class="container">
+    <form  action="/register" method="get" class="needs-validation form-1 form-0" novalidate>
+      <div class="form-group">
+        <label for="exampleInputYourName">Your Name:</label>
+        <input type="text" class="form-control" id="exampleInputYourName" placeholder="Enter Your Name" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email Address:</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Your Email"
+          aria-describedby="emailHelp" required>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password:</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Your Password" required>
+        <div class="invalid-feedback">
+          Please provide password.
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputPassword1">Confirm Password:</label>
+        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Enter Your Password" required>
+        <div class="invalid-feedback">
+          Password does not match. Rewrite It.
+        </div>
+      </div>
+
+      <!-- <div class="form-group">
+        <label for="exampleFormControlTextarea1">Feedback:</label>
+        <textarea class="form-control is-invalid" id="exampleFormControlTextarea1" rows="3" required></textarea>
+        <div class="invalid-feedback">
+          Please Enter Your Message .
+        </div>
+      </div> -->
+
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationTooltip03">City</label>
+          <input type="text" class="form-control" id="validationTooltip03" required>
+          <div class="invalid-tooltip">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationTooltip04">State</label>
+          <select class="custom-select" id="validationTooltip04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Andhra Pradesh</option>
+            <option>Arunachal Pradesh</option>
+            <option>Bihar</option>
+            <option>Assam</option>
+            <option>Chhattisgarh</option>
+            <option>Goa</option>
+            <option>Gujrat</option>
+            <option>Haryana</option>
+            <option>Himachal Pradesh</option>
+            <option>Jharkhand</option>
+            <option>Karnataka</option>
+            <option>Kerala</option>
+            <option>Madhya Pradesh</option>
+            <option>Maharashtra</option>
+            <option>Manipur</option>
+            <option>Megghalaya</option>
+            <option>Mizoram</option>
+            <option>Nagaland</option>
+            <option>Odisha</option>
+            <option>Punjab</option>
+            <option>Rajasthan</option>
+            <option>Sikkim</option>
+            <option>Tamilnadu</option>
+            <option>Telengana</option>
+            <option>Tripura</option>
+            <option>Uttar Pradesh</option>
+            <option>Uttarakhand</option>
+            <option>West Bengal</option>
+            <option>Other</option>
+            
+          </select>
+          <div class="invalid-tooltip">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationTooltip05">Zip</label>
+          <input type="text" class="form-control" id="validationTooltip05" required>
+          <div class="invalid-tooltip">
+            Please provide a valid zip.
+          </div>
+        </div>
+
+      <div class="form-group form-check mt-0 ">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <div class="invalid-tooltip">
+          You must agree before submitting.
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-sm btn-block">Submit</button>
+    </form>
+  </div>
+</div>
+</div>
+   </div>
+     
+</main>
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+  </script>
+
+  
+
+
+    <!--Add Footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="text">
+        © 2021 | Cook in Ming's Diner Ltd.
+        <a href="mingsdiner@gmail.com">mingsdiner@gmail.com</a> | All Rights
+        Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!--Add Bootstrap JS Link-->
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

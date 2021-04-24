@@ -3,7 +3,7 @@
 ## Project objective: 
 ---
 
-Build a responsive website for a restaurant where users can read the details of the restaurant.
+Build a responsive website for a restaurant where users can read the details of the restaurants.
 
 ## Background of the problem statement: 
 ---

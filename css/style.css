@@ -1,28 +1,51 @@
 .alert{
     margin-bottom: 0rem;
 }
-
-.jumbotron{
-    margin-bottom: 0rem;
+body{
+  font-family: poppins;
 }
 
-.card{
-  background-color: #e9e9e9;
-  border: 1px solid rgb(17, 17, 18);  
+.carousel-item{
+  height: auto; 
 }
 
-.card-deck{
-    background-color: #e9e9e9;
+
+.mt-0{
+  padding-top: 1rem;
+}
+.mt-1{
+  padding-top: 3rem;
 }
 
-form {
-  margin : 6px;
+.card-img-top {
+  width: 100%;
+  height: 35vw;
+  object-fit: cover;
+}
+
+.card-title{
+  text-align: center;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: larger;
+  
+}
+.form-0{
+  background-color: rgb(120, 208, 219);
+  
+}
+.form-1 {
+  margin : 3px;
   margin-top: 1%;
-  border : 3px solid black;
-  padding: 30px;
+  border : 1px solid black;
+  padding: 25px;
+  height: 600px;
 }
-
-.mt-3, .my-3 {
-    margin-top: 2.5rem!important;
+.footer{
+  
     text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    display: block;
 }
