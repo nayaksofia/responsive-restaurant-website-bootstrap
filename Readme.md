@@ -35,6 +35,10 @@ You are a web developer at a service-based web development company called **Kite
 
 ● JQuery: To include JavaScript plugins like modals, tooltips, etc.
 
+## Restaurant Project Page Link: 
+---
+        
+ Click Here: [Ming's Diner: My Resturant Website](http://127.0.0.1:5501/index.html)
 
 ## The following requirements should be met:
 ---
