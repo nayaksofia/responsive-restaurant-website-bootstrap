@@ -161,7 +161,7 @@
           </div>
         </div>
 
-      <div class="form-group form-check mt-0 ">
+      <div class="form-group form-check mt-1 ">
         <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
         <label class="form-check-label" for="exampleCheck1">Check me out</label>
         <div class="invalid-tooltip">
@@ -178,29 +178,6 @@
    </div>
      
 </main>
-<script>
-  // Example starter JavaScript for disabling form submissions if there are invalid fields
-  (function() {
-    'use strict';
-    window.addEventListener('load', function() {
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      var forms = document.getElementsByClassName('needs-validation');
-      // Loop over them and prevent submission
-      var validation = Array.prototype.filter.call(forms, function(form) {
-        form.addEventListener('submit', function(event) {
-          if (form.checkValidity() === false) {
-            event.preventDefault();
-            event.stopPropagation();
-          }
-          form.classList.add('was-validated');
-        }, false);
-      });
-    }, false);
-  })();
-  </script>
-
-  
-
 
     <!--Add Footer-->
   <footer class="footer">
@@ -213,6 +190,7 @@
     </div>
   </footer>
 
+  <script src="js/script.js"></script>
   <!--Add Bootstrap JS Link-->
   <script src="js/jquery-3.5.1.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
