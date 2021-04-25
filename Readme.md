@@ -1,17 +1,17 @@
 # Building A Restaurant Website With Bootstrap.
 
 ## Project objective: 
----
+
 
 Build a responsive website for a restaurant where users can read the details of the restaurants.
 
 ## Background of the problem statement: 
----
+
 
 You are a web developer at a service-based web development company called **Kite Technologies**. The company has been approached by a client who wants to build a website for their restaurant named **Ming’s Diner**. The website should provide the users a **brief overview of the restaurant** and its **bestsellers**, its **address**, as well as **an option to contact the restaurant**. During sprint planning, you agree to lead this project and develop the website. 
 
 ## The tasks you are responsible for:
----
+
 
 ● Building the website using HTML
 
@@ -25,7 +25,7 @@ You are a web developer at a service-based web development company called **Kite
 
 
 ## You must use the following tools: 
----
+
 
 ● HTML: To define the content of the website
 
@@ -36,12 +36,12 @@ You are a web developer at a service-based web development company called **Kite
 ● JQuery: To include JavaScript plugins like modals, tooltips, etc.
 
 ## Restaurant Project Page Link: 
----
+
         
  Click Here: [Ming's Diner: My Resturant Website](http://127.0.0.1:5501/index.html)
 
 ## The following requirements should be met:
----
+
 
 ● The website should be responsive.
 
