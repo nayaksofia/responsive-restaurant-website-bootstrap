@@ -54,3 +54,10 @@ You are a web developer at a service-based web development company called **Kite
 ● The link of your **GitHub repository** is must. In order to track your task, you need to share the link of the repository. You can add a section in the Google Docs. 
 
 ● Document the step-by-step process involved in completing this task.
+
+# Webpage Design Pics:
+
+![webp1](../responsive-restaurant-website-bootstrap/img/webp1.png)
+![webp2](img/webp2.png)
+![webp3](img/webp2.png)
+![webp4](img/webp3.png)
