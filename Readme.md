@@ -59,5 +59,5 @@ You are a web developer at a service-based web development company called **Kite
 
 ![webp1](img/webp1.png)
 ![webp2](img/webp2.png)
-![webp3](img/webp3.png)
+![webp3](img/webp5.png)
 ![webp4](img/webp4.png)
