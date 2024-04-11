@@ -57,7 +57,7 @@ You are a web developer at a service-based web development company called **Kite
 
 # Webpage Design Pics:
 
-![webp1](../responsive-restaurant-website-bootstrap/img/webp1.png)
+![webp1](img/webp1.png)
 ![webp2](img/webp2.png)
-![webp3](img/webp2.png)
-![webp4](img/webp3.png)
+![webp3](img/webp3.png)
+![webp4](img/webp4.png)
